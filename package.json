@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "node test/index.js"
+    "test": "node test/index.js | tap-spec"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,12 @@
   "bugs": {
     "url": "https://github.com/scottcorgan/directory-index/issues"
   },
-  "homepage": "https://github.com/scottcorgan/directory-index"
+  "homepage": "https://github.com/scottcorgan/directory-index",
+  "devDependencies": {
+    "tap-spec": "^0.2.0",
+    "tape": "^2.13.3"
+  },
+  "dependencies": {
+    "slasher": "^0.1.5"
+  }
 }
